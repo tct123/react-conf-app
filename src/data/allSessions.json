@@ -152,11 +152,11 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "0d17aad6-33ce-4d6b-b31c-1ad2573841cc",
-        "75da261e-612c-4869-a111-3475bffb99f0",
-        "36b91385-6cdc-4c3c-891f-d6236172918b",
+        "bff6ab1a-a360-4cb1-95d0-939839915dfb",
         "20c73cd8-a317-40a4-833d-a9fe5d44cb62",
-        "bff6ab1a-a360-4cb1-95d0-939839915dfb"
+        "36b91385-6cdc-4c3c-891f-d6236172918b",
+        "75da261e-612c-4869-a111-3475bffb99f0",
+        "0d17aad6-33ce-4d6b-b31c-1ad2573841cc"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -210,18 +210,18 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "1020627",
-      "title": "To be announced",
-      "description": null,
+      "title": "Building an MCP Server for a React Component",
+      "description": "Model Context Protocol, or MCP, is an emergent open-source standard, proposed by Anthropic, that is designed to provide a secure, standardized, and simple way to give AI systems the context they need. As this is a new standard, lots of things are still being defined. In this talk, we'll peel back the layers on MCP and leave you with everything you need to start building your own MCP server based on our own learnings at AG Grid.",
       "startsAt": "2025-10-07T22:40:00Z",
       "endsAt": "2025-10-07T22:50:00Z",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "c29935b0-3309-4286-8243-97ae1beb61b4"
+        "3a9bc435-1f20-4c8e-b5c7-aaa96a27e28f"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -291,13 +291,14 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "ddf8b8bf-4806-46ea-bca4-df4591df7805",
-        "df4b8483-aae5-43c4-bc8f-5031ae12dbc1",
-        "90f2d599-df38-40b7-9878-ff82d16ce353",
         "49d925c3-1e2c-4551-86ae-10d55b3633d4",
+        "90f2d599-df38-40b7-9878-ff82d16ce353",
+        "df4b8483-aae5-43c4-bc8f-5031ae12dbc1",
+        "ddf8b8bf-4806-46ea-bca4-df4591df7805",
         "fd4c6b7c-8de2-4bf4-9d16-dae5be7093d1",
         "ba57ae45-2082-4143-b829-4a2bd88db7c0",
-        "15e35252-bf2a-4905-94d9-3f144006a2ae"
+        "15e35252-bf2a-4905-94d9-3f144006a2ae",
+        "128186d7-b81d-460e-954c-921d463516a1"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -341,8 +342,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "106dc281-fe8b-40ac-b16b-240832b27b47",
-        "15396036-b5c8-4f29-963d-397aff66d118"
+        "15396036-b5c8-4f29-963d-397aff66d118",
+        "106dc281-fe8b-40ac-b16b-240832b27b47"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -445,14 +446,14 @@
     },
     {
       "id": "1020632",
-      "title": "To be announced",
-      "description": null,
+      "title": "Designing Page Transitions",
+      "description": "Learn how to use React’s new View Transitions APIs to make page navigations feel clean, fast, and polished. We will start with a simple Next.js page, add crossfade, direction, shared elements, speed, blur, accessibility, and more! In 10 minutes, you will leave with animation patterns you can reuse in any app.",
       "startsAt": "2025-10-08T21:40:00Z",
       "endsAt": "2025-10-08T21:50:00Z",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "9daa9e9d-02ca-4754-84a6-aa75a43cf261"
+        "60719040-bfe7-47f1-9716-67b45ef712f9"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -522,8 +523,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "49646fe1-5d94-4fa4-9f89-c75a87cc799d",
-        "d8b2a235-8716-4966-9f5f-3f2b647dc53c"
+        "d8b2a235-8716-4966-9f5f-3f2b647dc53c",
+        "49646fe1-5d94-4fa4-9f89-c75a87cc799d"
       ],
       "categoryItems": [],
       "questionAnswers": [
@@ -564,18 +565,18 @@
       "title": "What's The Framework of the React Future?",
       "description": "The React ecosystem is at a crossroads. With Server Components reshaping how we think about full-stack development, meta-frameworks multiplying faster than JavaScript build tools, and new paradigms emerging weekly, developers are asking: Where is this all heading? What React framework will reign supreme in 2026 and beyond!",
       "startsAt": "2025-10-08T23:20:00Z",
-      "endsAt": "2025-10-08T23:40:00Z",
+      "endsAt": "2025-10-08T23:55:00Z",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "efa31704-d0ae-416f-99d9-a30bd1a8a71c",
-        "bf06ba9f-78c6-4c71-be1e-85848b8464f5",
-        "7777627c-dba5-44b3-81c4-fb4207a3ee95",
-        "75da261e-612c-4869-a111-3475bffb99f0",
         "b1a79d71-f37a-4a6f-b403-00608c2a2a20",
-        "9daa9e9d-02ca-4754-84a6-aa75a43cf261",
+        "75da261e-612c-4869-a111-3475bffb99f0",
+        "7777627c-dba5-44b3-81c4-fb4207a3ee95",
+        "bf06ba9f-78c6-4c71-be1e-85848b8464f5",
+        "efa31704-d0ae-416f-99d9-a30bd1a8a71c",
         "49646fe1-5d94-4fa4-9f89-c75a87cc799d",
-        "18f91aa7-3667-42ba-9019-9c0f468f34d7"
+        "18f91aa7-3667-42ba-9019-9c0f468f34d7",
+        "8bdaf79d-0c18-49fa-8aeb-e08eb8c91e9f"
       ],
       "categoryItems": [],
       "questionAnswers": [
@@ -589,6 +590,26 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
+      "isConfirmed": false
+    },
+    {
+      "id": "1050799",
+      "title": "Async React (continued)",
+      "description": null,
+      "startsAt": "2025-10-09T00:00:00Z",
+      "endsAt": "2025-10-09T00:15:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "ba57ae45-2082-4143-b829-4a2bd88db7c0"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 71511,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": false,
       "isConfirmed": false
     }
   ],
@@ -824,21 +845,39 @@
       ]
     },
     {
-      "id": "9daa9e9d-02ca-4754-84a6-aa75a43cf261",
+      "id": "60719040-bfe7-47f1-9716-67b45ef712f9",
       "firstName": "Delba",
-      "lastName": "Oliveira",
-      "bio": null,
-      "tagLine": "DX Engineer at Vercel",
+      "lastName": "de Oliveira",
+      "bio": "Delba de Oliveira is a DX Engineer at Vercel, where she focuses on making Next.js and Vercel easier to learn and use. She works on documentation and builds tools that make complex ideas easier to grasp. Her hope is to help developers understand not just the \"how\", but also the \"why\" certain decisions matter. ",
+      "tagLine": "DX Engineer @ Vercel",
       "profilePicture": "https://sessionize.com/image/3394-400o400o1-7r4rrE8gHHAvziqMiydPWv.jpg",
       "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        1020632,
-        947075
+      "links": [
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/delba-de-oliveira",
+          "linkType": "Sessionize"
+        }
       ],
-      "fullName": "Delba Oliveira",
+      "sessions": [
+        1020632
+      ],
+      "fullName": "Delba de Oliveira",
       "categoryItems": [],
-      "questionAnswers": []
+      "questionAnswers": [
+        {
+          "questionId": 99886,
+          "answerValue": "delbaoliveira"
+        },
+        {
+          "questionId": 99887,
+          "answerValue": "Vercel"
+        },
+        {
+          "questionId": 99888,
+          "answerValue": "delba_oliveira"
+        }
+      ]
     },
     {
       "id": "7777627c-dba5-44b3-81c4-fb4207a3ee95",
@@ -936,7 +975,7 @@
       "links": [
         {
           "title": "X (Twitter)",
-          "url": "https://twitter.com/joaolaq",
+          "url": "https://twitter.com/giolaq",
           "linkType": "Twitter"
         },
         {
@@ -1058,6 +1097,35 @@
       "questionAnswers": []
     },
     {
+      "id": "3a9bc435-1f20-4c8e-b5c7-aaa96a27e28f",
+      "firstName": "James",
+      "lastName": "Swinton",
+      "bio": "James Swinton-Bland is the Developer Relations Lead for AG Grid, specializing in JavaScript and React. They work at the intersection of engineering and community, focusing on developer experience and practical adoption of modern front-end tooling. At React Conf, James will share how to build an MCP Server for React integrations, using AG Grid as a case study, and highlight patterns that extend React applications with custom developer infrastructure.",
+      "tagLine": "Developer Relations Lead @ AG Grid",
+      "profilePicture": "https://sessionize.com/image/b618-400o400o1-LJCfst59cMQqCG7iLhGTsS.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1020627
+      ],
+      "fullName": "James Swinton",
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 99886,
+          "answerValue": "https://github.com/JamesSwinton"
+        },
+        {
+          "questionId": 99887,
+          "answerValue": "AG Grid"
+        },
+        {
+          "questionId": 99888,
+          "answerValue": "https://x.com/jamesswintondev"
+        }
+      ]
+    },
+    {
       "id": "90f2d599-df38-40b7-9878-ff82d16ce353",
       "firstName": "Joe",
       "lastName": "Savona",
@@ -1107,7 +1175,13 @@
       "tagLine": "React Team @ Meta",
       "profilePicture": "https://sessionize.com/image/413d-400o400o1-7EfCncoKyg8F95NrKk5y1g.jpg",
       "isTopSpeaker": false,
-      "links": [],
+      "links": [
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/jorge-cohen",
+          "linkType": "Sessionize"
+        }
+      ],
       "sessions": [
         987065
       ],
@@ -1125,6 +1199,31 @@
         {
           "questionId": 99888,
           "answerValue": "https://x.com/JorgeWritesCode"
+        }
+      ]
+    },
+    {
+      "id": "8bdaf79d-0c18-49fa-8aeb-e08eb8c91e9f",
+      "firstName": "Josh",
+      "lastName": "Story",
+      "bio": "Josh majored in Mathematics and discovered programming while in college. His first professional developer job was to program insurance rate calculations in Microsoft Excel, the paragon of Reactive Programming which must be why he now works on React. In between that time Josh has been an IC, Manager, and Executive at a few startups. outside of work he likes to push his limits with cooking.",
+      "tagLine": "Engineer @ Vercel",
+      "profilePicture": "https://sessionize.com/image/1f35-400o400o1-7CPpWpLJNLikzNbbt4kBxd.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        947075
+      ],
+      "fullName": "Josh Story",
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 99886,
+          "answerValue": "gnoff"
+        },
+        {
+          "questionId": 99887,
+          "answerValue": "Vercel"
         }
       ]
     },
@@ -1335,14 +1434,14 @@
           "linkType": "LinkedIn"
         },
         {
-          "title": "Blog",
-          "url": "https://blog.dudak.me",
-          "linkType": "Blog"
+          "title": "Company Website",
+          "url": "https://mui.com",
+          "linkType": "Company_Website"
         },
         {
-          "title": "Company Website",
-          "url": "https://www.future-processing.com",
-          "linkType": "Company_Website"
+          "title": "Sessionize",
+          "url": "https://sessionize.com/michaldudak",
+          "linkType": "Sessionize"
         }
       ],
       "sessions": [
@@ -1370,7 +1469,7 @@
       "firstName": "Michał",
       "lastName": "Pierzchała",
       "bio": "Passionate about building mobile and web experiences, high quality JS tooling and Open Source. Core React Native Community & Jest contributor. Space exploration enthusiast.",
-      "tagLine": "Head of Technology @ Callstack",
+      "tagLine": "Principal Engineer @ Callstack",
       "profilePicture": "https://sessionize.com/image/7662-400o400o1-ioiqeMNwZWFZZLNMm3n4g.jpg",
       "isTopSpeaker": false,
       "links": [],
@@ -1524,11 +1623,27 @@
       "id": "87a05416-71de-4c73-8ad4-ec2c8c9e4f4d",
       "firstName": "Perttu",
       "lastName": "Lähteenlahti",
-      "bio": "Senior Developer Advocate at RevenueCat",
+      "bio": "Building and monetizing mobile apps.",
       "tagLine": "Senior Developer Advocate @ RevenueCat",
       "profilePicture": "https://sessionize.com/image/407a-400o400o1-4xH7xhqy5qpS6Qt1UYbhix.jpg",
       "isTopSpeaker": false,
-      "links": [],
+      "links": [
+        {
+          "title": "X (Twitter)",
+          "url": "https://x.com/plahteenlahti",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "Blog",
+          "url": "https://perttu.dev",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://revenuecat.com",
+          "linkType": "Company_Website"
+        }
+      ],
       "sessions": [
         1020628
       ],
@@ -1537,7 +1652,7 @@
       "questionAnswers": [
         {
           "questionId": 99886,
-          "answerValue": "github.com/plahteenlahti"
+          "answerValue": "plahteenlahti"
         },
         {
           "questionId": 99887,
@@ -1545,7 +1660,7 @@
         },
         {
           "questionId": 99888,
-          "answerValue": "x.com/plahteenlahti"
+          "answerValue": "plahteenlahti"
         }
       ]
     },
@@ -1636,7 +1751,7 @@
     },
     {
       "id": "ba57ae45-2082-4143-b829-4a2bd88db7c0",
-      "firstName": "Rick",
+      "firstName": "Ricky",
       "lastName": "Hanlon",
       "bio": "Ricky majored in theoretical math and somehow found himself on the React Native team for a couple years before joining the React team. When he’s not programming you can find him snowboarding, biking, climbing, golfing, or closing GitHub issues that do not match the issue template.",
       "tagLine": "React Team @ Meta",
@@ -1645,9 +1760,10 @@
       "links": [],
       "sessions": [
         987045,
-        947073
+        947073,
+        1050799
       ],
-      "fullName": "Rick Hanlon",
+      "fullName": "Ricky Hanlon",
       "categoryItems": [],
       "questionAnswers": [
         {
@@ -1673,6 +1789,16 @@
       "profilePicture": "https://sessionize.com/image/9279-400o400o1-MqoduB2fP2Q461ToizK5L3.jpg",
       "isTopSpeaker": false,
       "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/rubennorte/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Bluesky",
+          "url": "https://bsky.app/profile/rubennorte.bsky.social",
+          "linkType": "Other"
+        },
         {
           "title": "Sessionize",
           "url": "https://sessionize.com/rubennorte",
@@ -1739,7 +1865,8 @@
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        947078
+        947078,
+        947073
       ],
       "fullName": "Seth Webster",
       "categoryItems": [],
@@ -1749,8 +1876,8 @@
       "id": "36b91385-6cdc-4c3c-891f-d6236172918b",
       "firstName": "Shawn (swyx)",
       "lastName": "Wang",
-      "bio": "Shawn is an Infinite Builder and DX Engineer at Netlify. He enjoys helping the community online at /r/reactjs and getting first-timers started doing their first talks in the New York tech scene!",
-      "tagLine": "Infinite Builder @ Netlify",
+      "bio": null,
+      "tagLine": "Cognition",
       "profilePicture": "https://sessionize.com/image/c094-400o400o1-5976eb09-124e-447c-9ec5-657dd47419e5.jpg",
       "isTopSpeaker": false,
       "links": [
@@ -1789,8 +1916,8 @@
       "id": "ddf8b8bf-4806-46ea-bca4-df4591df7805",
       "firstName": "Shruti",
       "lastName": "Kapoor",
-      "bio": "Shruti is a Staff Software Engineer at Slack. She is passionate about teaching and sharing knowledge in JavaScript, React, GraphQL and front-end technologies. She creates technical content and shares at shrutikapoor.dev. She is also an ardent #DevJoke fan.\r\n",
-      "tagLine": "Staff Engineer @ Slack",
+      "bio": "Shruti is a Software Engineer and a YouTuber. She is passionate about teaching Shruti Kapoor is a seasoned frontend engineer, educator, and speaker who's been leet-heatin' her way through the dev world for over a decade. Formerly at PayPal and Slack, and a full-time content creator, she's best known for breaking down complex topics like React 18 and 19 with clarity, humor, and the occasional DevJoke (aka: *Hip Hip Array!*).\r\n\r\nShruti is an Egghead and O’Reilly instructor, international speaker, and the creator of [*This Week in React and AI*](https://shrutikapoor.substack.com/) - a newsletter packed with sharp insights and terrible puns. She’s been featured on global stages, and built a community of developers who genuinely enjoy learning about accessibility, AI, and React—sometimes all at once.\r\n\r\nWhen she’s not deep in code or keynoting a conference, you’ll probably find her traveling the world, sipping coffee, and being effortlessly cooler than your favorite devand sharing knowledge in JavaScript, React, GraphQL and front-end technologies. She creates technical content and shares at shrutikapoor.dev. She is also an ardent #DevJoke fan.\r\n",
+      "tagLine": "Software Engineer, Educator, YouTuber",
       "profilePicture": "https://sessionize.com/image/6a10-400o400o1-91B4jPotvtgyrSYN2w9oHp.jpg",
       "isTopSpeaker": false,
       "links": [
@@ -1811,7 +1938,7 @@
         },
         {
           "title": "Company Website",
-          "url": "https://shrutikapoor.dev/",
+          "url": "https://www.youtube.com/@shrutikapoor08",
           "linkType": "Company_Website"
         },
         {
@@ -1921,22 +2048,6 @@
           "answerValue": "theo"
         }
       ]
-    },
-    {
-      "id": "c29935b0-3309-4286-8243-97ae1beb61b4",
-      "firstName": "To be",
-      "lastName": "announced",
-      "bio": null,
-      "tagLine": null,
-      "profilePicture": "https://sessionize.com/image/0adc-400o400o1-NSk8QHU4ebGd87RdXoyjJx.png",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        1020627
-      ],
-      "fullName": "To be announced",
-      "categoryItems": [],
-      "questionAnswers": []
     },
     {
       "id": "54360cfe-17e7-477f-b593-39a463a34057",
