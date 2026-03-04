@@ -69,7 +69,7 @@ export default function Layout() {
     if (
       lastNotificationResponse &&
       lastNotificationResponse.actionIdentifier ===
-        Notifications.DEFAULT_ACTION_IDENTIFIER
+      Notifications.DEFAULT_ACTION_IDENTIFIER
     ) {
       try {
         const url = lastNotificationResponse.notification.request.content.data
@@ -77,7 +77,7 @@ export default function Layout() {
         if (url && pathName !== url) {
           router.push(url);
         }
-      } catch {}
+      } catch { }
     }
     // eslint-disable-next-line react-compiler/react-compiler
     // eslint-disable-next-line react-hooks/exhaustive-deps

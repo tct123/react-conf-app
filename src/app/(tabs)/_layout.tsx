@@ -1,11 +1,9 @@
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import {
-  Badge,
-  Icon,
-  Label,
+
   NativeTabs,
-  VectorIcon,
 } from "expo-router/unstable-native-tabs";
+import { Label, Icon, VectorIcon, Badge } from "expo-router";
 import React from "react";
 import {
   ColorValue,
@@ -48,17 +46,17 @@ export default function TabLayout() {
         color:
           Platform.OS === "ios" && isLiquidGlassAvailable()
             ? DynamicColorIOS({
-                light: theme.colorBlack,
-                dark: theme.colorWhite,
-              })
+              light: theme.colorBlack,
+              dark: theme.colorWhite,
+            })
             : inactiveTintColor,
       }}
       iconColor={
         Platform.OS === "ios" && isLiquidGlassAvailable()
           ? DynamicColorIOS({
-              light: theme.colorBlack,
-              dark: theme.colorWhite,
-            })
+            light: theme.colorBlack,
+            dark: theme.colorWhite,
+          })
           : inactiveTintColor
       }
       tintColor={
