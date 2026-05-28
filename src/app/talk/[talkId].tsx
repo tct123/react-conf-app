@@ -15,21 +15,21 @@ import Animated, {
 import { Pressable, ScrollView } from "react-native-gesture-handler";
 import { Canvas, Fill, Shader, Skia, vec } from "@shopify/react-native-skia";
 
-import { NotFound } from "@/components/NotFound";
-import { SpeakerImage } from "@/components/SpeakerImage";
-import { ThemedText, ThemedView, useThemeColor } from "@/components/Themed";
-import { useReactConfStore } from "@/store/reactConfStore";
-import { theme } from "@/theme";
-import { Session, Speaker } from "@/types";
+import { NotFound } from "../../components/NotFound";
+import { SpeakerImage } from "../../components/SpeakerImage";
+import { ThemedText, ThemedView, useThemeColor } from "../../components/Themed";
+import { useReactConfStore } from "../../store/reactConfStore";
+import { theme } from "../../theme";
+import { Session, Speaker } from "../../types";
 import {
   DAY_ONE_DATE,
   DAY_TWO_DATE,
   formatSessionTime,
-} from "@/utils/formatDate";
-import { HeaderButton } from "@/components/HeaderButtons/HeaderButton";
+} from "../../utils/formatDate";
+import { HeaderButton } from "../../components/HeaderButtons/HeaderButton";
 import { isLiquidGlassAvailable } from "expo-glass-effect";
 import { scheduleOnRN } from "react-native-worklets";
-import { Bookmark } from "@/components/Bookmark";
+import { Bookmark } from "../../components/Bookmark";
 import { osName } from "expo-device";
 
 const AnimatedScrollView = Animated.createAnimatedComponent(ScrollView);
@@ -149,7 +149,6 @@ export default function TalkDetail() {
               ios: (
                 <HeaderButton
                   buttonProps={{ onPress: router.back }}
-                  // eslint-disable-next-line react-native/no-inline-styles
                   style={{ padding: osName === "iPadOS" ? 40 : 0 }}
                 />
               ),
@@ -158,7 +157,6 @@ export default function TalkDetail() {
           headerRight: () => (
             <Bookmark
               session={talk}
-              // eslint-disable-next-line react-native/no-inline-styles
               style={{ padding: osName === "iPadOS" ? 40 : 0 }}
             />
           ),

@@ -1,6 +1,6 @@
 import { formatSession } from "./sessions";
 
-import { allSessions } from "@/utils/testData/allSessions";
+import { allSessions } from "../utils/testData/allSessions";
 
 describe(formatSession, () => {
   // no non-talks yet in the new version

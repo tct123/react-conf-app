@@ -1,4 +1,4 @@
-import { allSessions } from "@/utils/testData/allSessions";
+import { allSessions } from "./utils/testData/allSessions";
 
 export type Session = {
   id: string;

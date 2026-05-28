@@ -1,8 +1,5 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-#IDE
-.vscode/
-
 # dependencies
 node_modules/
 
@@ -10,8 +7,10 @@ node_modules/
 .expo/
 dist/
 web-build/
+expo-env.d.ts
 
 # Native
+.kotlin/
 *.orig.*
 *.jks
 *.p8
@@ -37,6 +36,8 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-# ignoring as we're using CNG
+example
+
+# generated native folders
 /ios
 /android

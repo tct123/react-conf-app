@@ -1,6 +1,6 @@
-import { ApiAllSessions, Session, Speaker } from "@/types";
+import { ApiAllSessions, Session, Speaker } from "../types";
 // @ts-ignore
-import { allTalks } from "@/utils/testData/allSessions";
+import { allTalks } from "../utils/testData/allSessions";
 import { isDayOneSession, isDayTwoSession } from "./formatDate";
 
 export const formatSessions = (talks: ApiAllSessions): Session[][] => {

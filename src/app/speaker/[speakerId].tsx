@@ -8,24 +8,25 @@ import {
   useRouter,
 } from "expo-router";
 import { Platform, StyleSheet, View } from "react-native";
-import openWebBrowserAsync from "@/utils/openWebBrowserAsync";
+import openWebBrowserAsync from "../../utils/openWebBrowserAsync";
 import { ScrollView } from "react-native-gesture-handler";
 
-import { IconButton } from "@/components/IconButton";
-import { MiniTalkCard } from "@/components/MiniTalkCard";
-import { NotFound } from "@/components/NotFound";
-import { SpeakerImage } from "@/components/SpeakerImage";
-import { ThemedText, ThemedView, useThemeColor } from "@/components/Themed";
-import { useReactConfStore } from "@/store/reactConfStore";
-import { theme } from "@/theme";
-import { Speaker } from "@/types";
-import { HeaderButton } from "@/components/HeaderButtons/HeaderButton";
+import { IconButton } from "../../components/IconButton";
+import { MiniTalkCard } from "../../components/MiniTalkCard";
+import { NotFound } from "../../components/NotFound";
+import { SpeakerImage } from "../../components/SpeakerImage";
+import { ThemedText, ThemedView, useThemeColor } from "../../components/Themed";
+import { useReactConfStore } from "../../store/reactConfStore";
+import { theme } from "../../theme";
+import { Speaker } from "../../types";
+import { HeaderButton } from "../../components/HeaderButtons/HeaderButton";
 import { osName } from "expo-device";
+import { Key } from "react";
 
 export default function SpeakerDetail() {
   const params = useLocalSearchParams();
   const speakers = useReactConfStore((state) => state.allSessions.speakers);
-  const speaker = speakers.find((speaker) => speaker.id === params.speakerId);
+  const speaker = speakers.find((speaker: { id: string | string[]; }) => speaker.id === params.speakerId);
   const isPreview = useIsPreview();
   const router = useRouter();
 
@@ -108,7 +109,7 @@ export default function SpeakerDetail() {
                 {speaker.bio}
               </ThemedText>
             ) : null}
-            {speaker.sessions.map((sessionId) => (
+            {speaker.sessions.map((sessionId: Key | null | undefined) => (
               <MiniTalkCard sessionId={sessionId} key={sessionId} />
             ))}
           </ScrollView>

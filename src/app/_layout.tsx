@@ -1,8 +1,10 @@
+/* eslint-disable react-compiler/react-compiler */
+/* eslint-disable react-compiler/react-compiler */
 import {
   DarkTheme,
   DefaultTheme,
   ThemeProvider,
-} from "@react-navigation/native";
+} from "expo-router/react-navigation";
 import { differenceInMinutes } from "date-fns";
 import { usePathname, useRouter } from "expo-router";
 import { Stack } from "expo-router/stack";
@@ -19,8 +21,8 @@ import * as SplashScreen from "expo-splash-screen";
 
 import { theme } from "../theme";
 
-import { ThemedText, useThemeColor } from "@/components/Themed";
-import { useReactConfStore } from "@/store/reactConfStore";
+import { ThemedText, useThemeColor } from "../components/Themed";
+import { useReactConfStore } from "../store/reactConfStore";
 import { osName } from "expo-device";
 
 SplashScreen.setOptions({
@@ -79,9 +81,7 @@ export default function Layout() {
         }
       } catch { }
     }
-    // eslint-disable-next-line react-compiler/react-compiler
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [lastNotificationResponse]);
+  }, [lastNotificationResponse, pathName, router]);
 
   useEffect(() => {
     const fetchData = async () => {
