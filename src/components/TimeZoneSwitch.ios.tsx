@@ -1,5 +1,5 @@
-import { useReactConfStore } from "@/store/reactConfStore";
-import { getCurrentTimezone } from "@/utils/formatDate";
+import { useReactConfStore } from "../store/reactConfStore";
+import { getCurrentTimezone } from "../utils/formatDate";
 import * as Device from "expo-device";
 import {
   Button,
@@ -13,7 +13,7 @@ import {
 import * as Haptics from "expo-haptics";
 import { isLiquidGlassAvailable } from "expo-glass-effect";
 import { buttonStyle, frame } from "@expo/ui/swift-ui/modifiers";
-import { theme } from "@/theme";
+import { theme } from "../theme";
 import { StyleSheet, useColorScheme } from "react-native";
 
 const options = ["PDT (Venue)", `${getCurrentTimezone()} (Local)`];
@@ -42,7 +42,7 @@ export function TimeZoneSwitch() {
       >
         <ContextMenu.Items>
           <Picker
-            selectedIndex={selectedIndex}
+            selection={selectedIndex}
             options={options}
             onOptionSelected={({ nativeEvent: { index } }) =>
               handleToggleLocalTz(index)

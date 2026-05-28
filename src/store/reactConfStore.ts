@@ -2,9 +2,9 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 
-import initialAllSessions from "@/data/allSessions.json";
-import { ApiAllSessions, Session } from "@/types";
-import { formatSessions } from "@/utils/sessions";
+import initialAllSessions from "../data/allSessions.json";
+import { ApiAllSessions, Session } from "../types";
+import { formatSessions } from "../utils/sessions";
 
 const doFetch = async (url: string) => {
   try {

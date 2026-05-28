@@ -3,11 +3,11 @@ import * as Haptics from "expo-haptics";
 import * as Notifications from "expo-notifications";
 import { isPast, subMinutes } from "date-fns";
 
-import { useBookmarkStore } from "@/store/bookmarkStore";
-import { useReactConfStore } from "@/store/reactConfStore";
-import { registerForPushNotificationsAsync } from "@/utils/registerForPushNotificationsAsync";
-import { formatSession } from "@/utils/sessions";
-import { Session } from "@/types";
+import { useBookmarkStore } from "../store/bookmarkStore";
+import { useReactConfStore } from "../store/reactConfStore";
+import { registerForPushNotificationsAsync } from "../utils/registerForPushNotificationsAsync";
+import { formatSession } from "../utils/sessions";
+import { Session } from "../types";
 
 export function useBookmark() {
   const toggleBookmarked = useBookmarkStore((state) => state.toggleBookmarked);

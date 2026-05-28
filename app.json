@@ -14,7 +14,7 @@
       "adaptiveIcon": {
         "backgroundColor": "#087EA4",
         "foregroundImage": "./assets/app-icons/icon-android.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
+        "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/app-icons/icon-monochrome-android.png"
       },
       "predictiveBackGestureEnabled": false

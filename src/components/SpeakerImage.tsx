@@ -2,7 +2,7 @@ import { Image } from "expo-image";
 import { StyleSheet, View, ViewStyle } from "react-native";
 import { useState } from "react";
 
-import { theme } from "@/theme";
+import { theme } from "../theme";
 import { ThemedView, useThemeColor } from "./Themed";
 
 export function SpeakerImage({
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
   profileImage: {
     height: 70,
     width: 50,
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
   },
   reactLogoSizeExtraLarge: {
     height: 100,

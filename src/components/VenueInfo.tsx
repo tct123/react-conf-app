@@ -6,7 +6,7 @@ import * as Linking from "expo-linking";
 import { LinearGradient } from "expo-linear-gradient";
 import { ThemedText, ThemedView, useThemeColor } from "./Themed";
 
-import { theme } from "@/theme";
+import { theme } from "../theme";
 import { osName } from "expo-device";
 
 const venueAddress = "101 Montelago Blvd, Henderson, NV 89011";
@@ -21,9 +21,9 @@ export function VenueInfo() {
   const imageStyle: ImageStyle =
     osName === "iPadOS"
       ? {
-          width: hotelImageSize,
-          height: hotelImageSize / 2,
-        }
+        width: hotelImageSize,
+        height: hotelImageSize / 2,
+      }
       : { width: "100%", aspectRatio: 1 };
 
   const onOpenVenue = () => {
@@ -50,7 +50,7 @@ export function VenueInfo() {
           start={{ x: 0.5, y: 0 }}
           end={{ x: 0.5, y: 1 }}
           colors={["transparent", backgroundColor]}
-          style={StyleSheet.absoluteFillObject}
+          style={StyleSheet.absoluteFill}
         />
         <ThemedView
           style={styles.venueDetails}

@@ -2,9 +2,9 @@ import { StyleSheet } from "react-native";
 
 import { ThemedPressable, ThemedText } from "./Themed";
 
-import { useReactConfStore } from "@/store/reactConfStore";
-import { theme } from "@/theme";
-import { getCurrentTimezone } from "@/utils/formatDate";
+import { useReactConfStore } from "../store/reactConfStore";
+import { theme } from "../theme";
+import { getCurrentTimezone } from "../utils/formatDate";
 import * as Haptics from "expo-haptics";
 
 export function TimeZoneSwitch() {

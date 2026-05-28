@@ -4,13 +4,13 @@ import { StyleSheet, useWindowDimensions, View } from "react-native";
 import { Bookmark } from "./Bookmark";
 import { ThemedText, ThemedView } from "./Themed";
 import { theme } from "../theme";
-import { Session, Speaker } from "@/types";
+import { Session, Speaker } from "../types";
 import { formatSessionTime } from "../utils/formatDate";
 
-import { useReactConfStore } from "@/store/reactConfStore";
+import { useReactConfStore } from "../store/reactConfStore";
 import { Gesture, GestureDetector } from "react-native-gesture-handler";
 import { SpeakerDetails } from "./SpeakerDetails";
-import { ConferenceDay } from "@/consts";
+import { ConferenceDay } from "../consts";
 import * as Haptics from "expo-haptics";
 import { useMemo } from "react";
 import Animated, { FadeIn, FadeOut } from "react-native-reanimated";

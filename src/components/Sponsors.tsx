@@ -1,8 +1,8 @@
-import { theme } from "@/theme";
+import { theme } from "../theme";
 import { Pressable, StyleSheet, View } from "react-native";
 import { ThemedText, ThemedView } from "./Themed";
 import { Image } from "expo-image";
-import openWebBrowserAsync from "@/utils/openWebBrowserAsync";
+import openWebBrowserAsync from "../utils/openWebBrowserAsync";
 
 const sponsors = {
   amazon: {

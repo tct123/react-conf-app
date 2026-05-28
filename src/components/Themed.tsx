@@ -110,7 +110,10 @@ export function ThemedPressable(
       <AnimatedPressable
         style={[
           { backgroundColor },
-          typeof style === "function" ? style({ pressed: false }) : style,
+          typeof style === "function" ? style({
+            pressed: false,
+            hovered: false
+          }) : style,
         ]}
         {...otherProps}
       />
@@ -121,7 +124,10 @@ export function ThemedPressable(
     <Pressable
       style={[
         { backgroundColor },
-        typeof style === "function" ? style({ pressed: false }) : style,
+        typeof style === "function" ? style({
+          pressed: false,
+          hovered: false
+        }) : style,
       ]}
       {...otherProps}
     />
