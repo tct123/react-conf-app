@@ -1,15 +1,14 @@
 import { useScrollToTop } from "expo-router/react-navigation";
 import React from "react";
 import { Platform } from "react-native";
-
-import { LiveStreamInfo } from "@/components/LiveStreamInfo";
-import { DiscordInfo } from "@/components/DiscordInfo";
-import { useThemeColor } from "@/components/Themed";
-import { VenueInfo } from "@/components/VenueInfo";
-import { theme } from "@/theme";
+import { LiveStreamInfo } from "../../../components/LiveStreamInfo";
+import { DiscordInfo } from "../../../components/DiscordInfo";
+import { useThemeColor } from "../../../components/Themed";
+import { VenueInfo } from "../../../components/VenueInfo";
+import { theme } from "../../../theme";
 import { ScrollView } from "react-native-gesture-handler";
-import { PoweredByExpo } from "@/components/PoweredByExpo";
-import { Sponsors } from "@/components/Sponsors";
+import { PoweredByExpo } from "../../../components/PoweredByExpo";
+import { Sponsors } from "../../../components/Sponsors";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function Info() {

@@ -3,9 +3,9 @@ import { View, StyleSheet } from "react-native";
 
 import { ThemedText } from "./Themed";
 
-import { useReactConfStore } from "@/store/reactConfStore";
-import { theme } from "@/theme";
-import { formatFullDate } from "@/utils/formatDate";
+import { useReactConfStore } from "../store/reactConfStore";
+import { theme } from "../theme";
+import { formatFullDate } from "../utils/formatDate";
 import { useUpdates } from "expo-updates";
 
 export function BuildDetails() {

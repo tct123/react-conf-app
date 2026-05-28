@@ -1,13 +1,13 @@
-import { useThemeColor } from "@/components/Themed";
-import { TimeZoneSwitch } from "@/components/TimeZoneSwitch";
-import { spaceScale, theme } from "@/theme";
+import { useThemeColor } from "../../../components/Themed";
+import { TimeZoneSwitch } from "../../../components/TimeZoneSwitch";
+import { spaceScale, theme } from "../../../theme";
 import { isLiquidGlassAvailable } from "expo-glass-effect";
 import { Image } from "expo-image";
 import { Stack } from "expo-router";
 import { Platform, StyleSheet, useColorScheme } from "react-native";
 
-const lightImageSource = require("@/assets/images/conf.png");
-const darkImageSource = require("@/assets/images/conf-dark.png");
+const lightImageSource = "/assets/images/conf.png";
+const darkImageSource = "/assets/images/conf-dark.png";
 
 export default function Layout() {
   const tabBarBackgroundColor = useThemeColor(theme.color.background);

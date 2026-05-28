@@ -13,7 +13,7 @@ import {
 import { HolographicGradient } from "./HolographicGradient";
 import { scheduleOnRN } from "react-native-worklets";
 import { ThemedText, ThemedView } from "../Themed";
-import { theme } from "@/theme";
+import { theme } from "../../theme";
 import * as Application from "expo-application";
 
 const CONTAINER_SIZE = 160;
@@ -159,7 +159,7 @@ export function PoweredByExpo() {
               <HolographicGradient />
             </View>
             <Image
-              source={require("@/assets/images/sub-expo.png")}
+              source={{ uri: "assets/images/sub-expo.png" }}
               style={styles.logoOverlay}
             />
           </View>
@@ -212,7 +212,7 @@ const styles = StyleSheet.create({
     width: FLIPPED_CONTENT_SIZE,
   },
   flippedOverlay: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
     alignItems: "center",
     justifyContent: "center",
   },

@@ -1,6 +1,6 @@
-import { theme } from "@/theme";
+import { theme } from "../theme";
 import { StyleSheet, View } from "react-native";
-import { ConferenceDay } from "@/consts";
+import { ConferenceDay } from "../consts";
 import { Host, Picker } from "@expo/ui/swift-ui";
 import { GlassView } from "expo-glass-effect";
 

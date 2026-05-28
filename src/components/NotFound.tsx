@@ -23,7 +23,7 @@ export function NotFound({ message }: { message: string }) {
       </ThemedText>
       <Image
         tintColor={iconColor}
-        source={require("@/assets/images/not-found.svg")}
+        source={{ uri: "assets/images/not-found.svg" }}
         style={styles.image}
       />
 

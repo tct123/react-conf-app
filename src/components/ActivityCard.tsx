@@ -2,10 +2,10 @@ import { StyleSheet, View } from "react-native";
 
 import { ThemedText, ThemedView } from "./Themed";
 
-import { useReactConfStore } from "@/store/reactConfStore";
-import { theme } from "@/theme";
-import { Session } from "@/types";
-import { formatSessionTime } from "@/utils/formatDate";
+import { useReactConfStore } from "../store/reactConfStore";
+import { theme } from "../theme";
+import { Session } from "../types";
+import { formatSessionTime } from "../utils/formatDate";
 
 type Props = {
   session: Session;

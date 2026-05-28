@@ -1,7 +1,7 @@
 import { useThemeColor } from "./Themed";
-import { theme } from "@/theme";
+import { theme } from "../theme";
 import { useWindowDimensions, View, StyleSheet, Platform } from "react-native";
-import { ConferenceDay } from "@/consts";
+import { ConferenceDay } from "../consts";
 import { Picker } from "@expo/ui/jetpack-compose";
 
 interface DayPickerProps {

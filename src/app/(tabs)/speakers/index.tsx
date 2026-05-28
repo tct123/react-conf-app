@@ -7,15 +7,15 @@ import {
   useWindowDimensions,
 } from "react-native";
 
-import { NotFound } from "@/components/NotFound";
+import { NotFound } from "../../../components/NotFound";
 
-import { ThemedText, ThemedView, useThemeColor } from "@/components/Themed";
-import { useReactConfStore } from "@/store/reactConfStore";
-import { theme } from "@/theme";
+import { ThemedText, ThemedView, useThemeColor } from "../../../components/Themed";
+import { useReactConfStore } from "../../../store/reactConfStore";
+import { theme } from "../../../theme";
 import { Link, useLocalSearchParams } from "expo-router";
-import { SpeakerDetails } from "@/components/SpeakerDetails";
-import { useBookmark } from "@/hooks/useBookmark";
-import { Speaker } from "@/types";
+import { SpeakerDetails } from "../../../components/SpeakerDetails";
+import { useBookmark } from "../../../hooks/useBookmark";
+import { Speaker } from "../../../types";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import Animated, {
   FadeIn,

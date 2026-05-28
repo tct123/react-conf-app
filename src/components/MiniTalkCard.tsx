@@ -4,9 +4,9 @@ import { Pressable } from "react-native-gesture-handler";
 
 import { ThemedText, ThemedView, useThemeColor } from "./Themed";
 
-import { useReactConfStore } from "@/store/reactConfStore";
-import { theme } from "@/theme";
-import { formatSessionTime } from "@/utils/formatDate";
+import { useReactConfStore } from "../store/reactConfStore";
+import { theme } from "../theme";
+import { formatSessionTime } from "../utils/formatDate";
 import { Bookmark } from "./Bookmark";
 
 export function MiniTalkCard({ sessionId }: { sessionId: string | number }) {

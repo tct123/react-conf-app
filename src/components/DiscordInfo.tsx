@@ -4,7 +4,7 @@ import * as Linking from "expo-linking";
 import { StyleSheet } from "react-native";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 
-import { theme } from "@/theme";
+import { theme } from "../theme";
 
 export function DiscordInfo() {
   const handlePress = () => {

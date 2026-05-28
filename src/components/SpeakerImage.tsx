@@ -48,7 +48,7 @@ export function SpeakerImage({
   const placeholder = (
     <View style={[imageStyles, styles.fallbackImage]}>
       <Image
-        source={require("@/assets/images/reactlogo-white.png")}
+        source={{ uri: "assets/images/reactlogo-white.png" }}
         style={reactLogoSize}
       />
     </View>

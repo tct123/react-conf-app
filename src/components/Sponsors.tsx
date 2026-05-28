@@ -6,63 +6,63 @@ import openWebBrowserAsync from "../utils/openWebBrowserAsync";
 
 const sponsors = {
   amazon: {
-    image: require("@/assets/sponsors/platinum-amazon.svg"),
+    image: "/assets/sponsors/platinum-amazon.svg",
     url: "https://www.developer.amazon.com/",
   },
   agGrid: {
-    image: require("@/assets/sponsors/gold-ag-grid.svg"),
+    image: "/assets/sponsors/gold-ag-grid.svg",
     url: "https://www.ag-grid.com/",
   },
   mui: {
-    image: require("@/assets/sponsors/gold-mui.svg"),
+    image: "/assets/sponsors/gold-mui.svg",
     url: "https://mui.com/",
   },
   resend: {
-    image: require("@/assets/sponsors/gold-resend.svg"),
+    image: "/assets/sponsors/gold-resend.svg",
     url: "https://resend.com/",
   },
   revenueCat: {
-    image: require("@/assets/sponsors/gold-revenue-cat.svg"),
+    image: "/assets/sponsors/gold-revenue-cat.svg",
     url: "https://www.revenuecat.com/",
   },
   vercel: {
-    image: require("@/assets/sponsors/gold-vercel.svg"),
+    image: "/assets/sponsors/gold-vercel.svg",
     url: "https://vercel.com/",
   },
   expo: {
-    image: require("@/assets/sponsors/gold-expo.svg"),
+    image: "/assets/sponsors/gold-expo.svg",
     url: "https://expo.dev/",
   },
   redwood: {
-    image: require("@/assets/sponsors/gold-redwood.svg"),
+    image: "/assets/sponsors/gold-redwood.svg",
     url: "https://rwsdk.com/",
   },
   livestream: {
-    image: require("@/assets/sponsors/livestream-mux.svg"),
+    image: "/assets/sponsors/livestream-mux.svg",
     url: "https://www.mux.com/",
   },
   oldMission: {
-    image: require("@/assets/sponsors/silver-old-mission.png"),
+    image: "/assets/sponsors/silver-old-mission.png",
     url: "https://www.oldmissioncapital.com/",
   },
   arcjet: {
-    image: require("@/assets/sponsors/silver-arcjet.svg"),
+    image: "/assets/sponsors/silver-arcjet.svg",
     url: "https://www.arcjet.com/",
   },
   meta: {
-    image: require("@/assets/sponsors/organizer-meta.svg"),
+    image: "/assets/sponsors/organizer-meta.svg",
     url: "https://www.meta.com/",
   },
   callstack: {
-    image: require("@/assets/sponsors/organizer-callstack.svg"),
+    image: "//assets/sponsors/organizer-callstack.svg",
     url: "https://www.callstack.com/",
   },
   renderAtl: {
-    image: require("@/assets/sponsors/silver-render-atl.png"),
+    image: "/assets/sponsors/silver-render-atl.png",
     url: "https://www.renderatl.com/",
   },
   infiniteRed: {
-    image: require("@/assets/sponsors/silver-infinite-red.svg"),
+    image: "/assets/sponsors/silver-infinite-red.svg",
     url: "https://infinite.red/",
   },
 };

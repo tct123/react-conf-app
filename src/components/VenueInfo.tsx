@@ -41,7 +41,7 @@ export function VenueInfo() {
       <View>
         <View style={styles.imageContainer}>
           <Image
-            source={require("@/assets/images/hotel.png")}
+            source={{ uri: "assets/images/hotel.png" }}
             style={imageStyle}
           />
         </View>

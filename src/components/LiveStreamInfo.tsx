@@ -1,9 +1,9 @@
 import { Button } from "./Button";
 import { ThemedText, ThemedView, useThemeColor } from "./Themed";
-import openWebBrowserAsync from "@/utils/openWebBrowserAsync";
+import openWebBrowserAsync from "../utils/openWebBrowserAsync";
 import { StyleSheet, View } from "react-native";
 
-import { theme } from "@/theme";
+import { theme } from "../theme";
 
 export function LiveStreamInfo() {
   const handlePress = () => {

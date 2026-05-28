@@ -1,4 +1,4 @@
-import { Session } from "@/types";
+import { Session } from "../types";
 import { BaseBookmark } from "./BaseBookmark";
 import { StyleProp, ViewStyle } from "react-native";
 

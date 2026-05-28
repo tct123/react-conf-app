@@ -11,22 +11,22 @@ import Animated, {
   Extrapolation,
 } from "react-native-reanimated";
 
-import { ActivityCard } from "@/components/ActivityCard";
-import { NotFound } from "@/components/NotFound";
-import { TalkCard } from "@/components/TalkCard";
-import { ConferenceDay } from "@/consts";
-import { useReactConfStore } from "@/store/reactConfStore";
-import { DayPicker } from "@/components/DayPicker";
-import { useThemeColor } from "@/components/Themed";
-import { theme } from "@/theme";
-import { Session } from "@/types";
+import { ActivityCard } from "../../../components/ActivityCard";
+import { NotFound } from "../../../components/NotFound";
+import { TalkCard } from "../../../components/TalkCard";
+import { ConferenceDay } from "../../../consts";
+import { useReactConfStore } from "../../../store/reactConfStore";
+import { DayPicker } from "../../../components/DayPicker";
+import { useThemeColor } from "../../../components/Themed";
+import { theme } from "../../../theme";
+import { Session } from "../../../types";
 import { isLiquidGlassAvailable } from "expo-glass-effect";
-import { getInitialDay } from "@/utils/formatDate";
+import { getInitialDay } from "../../../utils/formatDate";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import {
   CurrentlyLive,
   type CurrentlyLiveSession,
-} from "@/components/CurrentlyLive";
+} from "../../../components/CurrentlyLive";
 
 const AnimatedFlatList = Animated.FlatList;
 

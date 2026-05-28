@@ -1,5 +1,5 @@
-import { ThemedText, useThemeColor } from "@/components/Themed";
-import { theme } from "@/theme";
+import { ThemedText, useThemeColor } from "../../../components/Themed";
+import { theme } from "../../../theme";
 import { isLiquidGlassAvailable } from "expo-glass-effect";
 import { Stack } from "expo-router";
 import { Platform } from "react-native";

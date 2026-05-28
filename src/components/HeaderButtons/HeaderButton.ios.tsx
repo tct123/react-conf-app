@@ -6,7 +6,7 @@ import {
   ImageProps,
 } from "@expo/ui/swift-ui";
 import { frame } from "@expo/ui/swift-ui/modifiers";
-import { theme } from "@/theme";
+import { theme } from "../../theme";
 import { StyleProp, ViewStyle } from "react-native";
 
 const SIZE = theme.fontSize34;

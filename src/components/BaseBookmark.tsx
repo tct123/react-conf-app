@@ -7,9 +7,9 @@ import Animated, {
 } from "react-native-reanimated";
 import { GestureDetector, Gesture } from "react-native-gesture-handler";
 
-import { theme } from "@/theme";
-import { Session } from "@/types";
-import { useBookmark } from "@/hooks/useBookmark";
+import { theme } from "../theme";
+import { Session } from "../types";
+import { useBookmark } from "../hooks/useBookmark";
 import { SymbolView } from "expo-symbols";
 import { StyleSheet } from "react-native";
 

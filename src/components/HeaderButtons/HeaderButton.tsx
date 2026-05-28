@@ -1,6 +1,6 @@
 import { HeaderButtonProps } from "./HeaderButton.ios";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
-import { theme } from "@/theme";
+import { theme } from "../../theme";
 import Animated, {
   useAnimatedStyle,
   useSharedValue,

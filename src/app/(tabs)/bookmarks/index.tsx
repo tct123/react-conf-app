@@ -1,13 +1,13 @@
 import React, { useCallback } from "react";
 import { Platform, Pressable, StyleSheet, View } from "react-native";
 
-import { ThemedText, useThemeColor } from "@/components/Themed";
-import { theme } from "@/theme";
-import { TalkCard } from "@/components/TalkCard";
-import { useBookmarkStore } from "@/store/bookmarkStore";
-import { useReactConfStore } from "@/store/reactConfStore";
-import { Session } from "@/types";
-import { ConferenceDay } from "@/consts";
+import { ThemedText, useThemeColor } from "../../../components/Themed";
+import { theme } from "../../../theme";
+import { TalkCard } from "../../../components/TalkCard";
+import { useBookmarkStore } from "../../../store/bookmarkStore";
+import { useReactConfStore } from "../../../store/reactConfStore";
+import { Session } from "../../../types";
+import { ConferenceDay } from "../../../consts";
 import Animated, {
   FadeIn,
   FadeOut,

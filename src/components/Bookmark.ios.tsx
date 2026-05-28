@@ -1,6 +1,6 @@
-import { theme } from "@/theme";
-import { Session } from "@/types";
-import { useBookmark } from "@/hooks/useBookmark";
+import { theme } from "../theme";
+import { Session } from "../types";
+import { useBookmark } from "../hooks/useBookmark";
 import { HeaderButton } from "./HeaderButtons/HeaderButton";
 import { frame } from "@expo/ui/swift-ui/modifiers";
 import { isLiquidGlassAvailable } from "expo-glass-effect";

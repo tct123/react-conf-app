@@ -1,10 +1,10 @@
-import { theme } from "@/theme";
+import { theme } from "../theme";
 import { StyleSheet, View, Pressable, Platform } from "react-native";
 import { ThemedText } from "./Themed";
-import { useReactConfStore } from "@/store/reactConfStore";
-import { getCurrentConferenceDay } from "@/utils/formatDate";
-import { ConferenceDay } from "@/consts";
-import { Session } from "@/types";
+import { useReactConfStore } from "../store/reactConfStore";
+import { getCurrentConferenceDay } from "../utils/formatDate";
+import { ConferenceDay } from "../consts";
+import { Session } from "../types";
 import { useCallback, useEffect, useState } from "react";
 import Animated, { FadeIn, FadeOutUp } from "react-native-reanimated";
 

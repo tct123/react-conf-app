@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 import { ThemedView, useThemeColor } from "./Themed";
 import { Pressable } from "react-native-gesture-handler";
 
-import { theme } from "@/theme";
+import { theme } from "../theme";
 import * as Haptics from "expo-haptics";
 
 export function IconButton({
