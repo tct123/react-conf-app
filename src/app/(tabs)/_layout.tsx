@@ -1,6 +1,5 @@
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import {
-
   NativeTabs,
 } from "expo-router/unstable-native-tabs";
 import { Label, Icon, VectorIcon, Badge } from "expo-router";
