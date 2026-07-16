@@ -8,7 +8,6 @@ import {
   ColorValue,
   ImageSourcePropType,
   Platform,
-  // eslint-disable-next-line react-native/split-platform-components
   DynamicColorIOS,
 } from "react-native";
 
